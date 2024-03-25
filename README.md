@@ -1,8 +1,16 @@
-# React + Vite
+# Splat + Mesh Viewer
+Splat + Mesh Viewer will allow you to upload a splat and a gltf file and visualize them in the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Project Setup
+Follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    git clone <repo-url>
+    npm install
+    npx vite
+
+This will start the project on your localhost.
+
+# How to Use
+
+After you run the npx vite command in the terminal, open up localhost on your web browser. Now just upload a splat file and a gltf file using the appropriate "Choose file" button at the top.

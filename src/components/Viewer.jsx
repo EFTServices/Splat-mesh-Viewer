@@ -13,10 +13,13 @@ function Viewer() {
         <Canvas>
             <CameraControls makeDefault/>
             <PivotControls>
+
+            {/* only render splat if the file is upload  */}
             {splatFile &&
                 <Splat src={URL.createObjectURL(splatFile)}/>
             }
             
+            {/* only render gltf mesh if the file is upload  */}
             {gltfFile && 
                 <Physics debug>
                     <RigidBody enabledRotations="false" enabledTranslations="false" colliders={"trimesh"}>

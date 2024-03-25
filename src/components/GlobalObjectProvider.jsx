@@ -1,6 +1,5 @@
+// this component holds all the global variables/states
 import { createContext, useRef, useState } from 'react';
-
-
 const GlobalObjectsContext = createContext();
 
 const GlobalObjectsProvider = ({ children }) => {
