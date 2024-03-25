@@ -6,6 +6,7 @@ Splat + Mesh Viewer will allow you to upload a splat and a gltf file and visuali
 Follow these steps:
 
     git clone <repo-url>
+    cd Splat-mesh-Viewer
     npm install
     npx vite
 
